@@ -1,0 +1,57 @@
+@font-face {
+    font-family: BebasNeue-Regular;
+    src: url(./BebasNeue-Regular.ttf);
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    bottom: 2%;
+    transform: translateX(-50%);
+    width: 9vw;
+    height: 4vw;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+#velocidad{
+    position: absolute;
+    font-family: BebasNeue-Regular;
+    font-size: 42px;
+    color:rgb(163, 170, 171);
+    left: 17%;
+    bottom: 17%;
+}
+
+#gasolina-icon{
+    position: absolute;
+    left: 60%;
+    bottom: 50%;
+}
+
+#speed-icon{
+    position: absolute;
+    color: rgb(163, 170, 171);
+    font-size: 13px;
+    left: 60%;
+    bottom: 27%; 
+}
+
+#gasolina{
+    position: absolute;
+    font-family: BebasNeue-Regular;
+    font-size: 15px;
+    color: #9fa5af;
+    left: 73%;
+    bottom: 49%;
+}
+
+#km{
+    position: absolute;
+    font-family: BebasNeue-Regular;
+    font-size: 14px;
+    color: 	#A3A6AB;
+    left: 70%;
+    bottom: 24%;
+}
